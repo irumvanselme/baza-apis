@@ -17,4 +17,4 @@ ENV LOG_CHANNEL stderr
 # Allow composer to run as root
 ENV COMPOSER_ALLOW_SUPERUSER 1
 
-CMD ["php", "artisan", "serve", "--port=8009", "--host=69.28.91.84"]
+CMD ["php", "artisan", "serve", "--host=0.0.0.0"]
