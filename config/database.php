@@ -93,12 +93,12 @@ return [
 
         'mongodb' => [
             'driver' => 'mongodb',
-            'dsn' => 'mongodb+srv://root:Rca_123@baza.xivov.mongodb.net/baza?retryWrites=true&w=majority',
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'dsn' => 'mongodb+srv://anselme:123@cluster0.gu14c.mongodb.net/baza?retryWrites=true&w=majority',
+            'host' => env('DB_HOST', 'cluster0.gu14c.mongodb.net'),
             'port' => env('DB_PORT', 27017),
-            'database' => env('DB_DATABASE', 'homestead'),
-            'username' => env('DB_USERNAME', 'homestead'),
-            'password' => env('DB_PASSWORD', 'secret'),
+            'database' => env('DB_DATABASE', 'baza'),
+            'username' => env('DB_USERNAME', 'anselme'),
+            'password' => env('DB_PASSWORD', '123'),
             'options' => [
                 // here you can pass more settings to the Mongo Driver Manager
                 // see https://www.php.net/manual/en/mongodb-driver-manager.construct.php under "Uri Options" for a list of complete parameters that you can use
