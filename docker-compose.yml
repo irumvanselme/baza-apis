@@ -6,6 +6,6 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8008:8000"
+      - "8009:8000"
     expose:
-      - 8008
+      - 8009
